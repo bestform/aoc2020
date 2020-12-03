@@ -1,8 +1,8 @@
-use std::fs;
 mod aoc2;
 mod aoc1;
+mod aoc3;
 
 fn main() {
-    aoc2::run();
+    aoc3::run();
 }
 
