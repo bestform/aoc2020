@@ -1,6 +1,6 @@
-mod aoc4;
+mod aoc5;
 
 fn main() {
-    aoc4::run();
+    aoc5::run();
 }
 
