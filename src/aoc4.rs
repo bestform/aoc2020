@@ -1,5 +1,4 @@
 use std::fs;
-use std::borrow::Borrow;
 
 extern crate regex;
 
@@ -83,5 +82,4 @@ fn is_valid(name: &str, value: &str) -> bool {
 
         _ => panic!()
     }
-    return true;
 }
