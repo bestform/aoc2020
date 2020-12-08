@@ -1,8 +1,7 @@
-use std::fs;
+use crate::rd;
 
 pub(crate) fn run() {
-    let contents = fs::read_to_string("src/input/08a.txt")
-        .expect("Something went wrong reading the file");
+    let contents = rd!("src/input/08a.txt");
 
     let input = instructions_from_string(contents);
 

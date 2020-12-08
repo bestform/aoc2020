@@ -1,9 +1,8 @@
 use std::collections::HashMap;
-use std::fs;
+use crate::rd;
 
 pub(crate) fn run() {
-    let contents = fs::read_to_string("src/input/06a.txt")
-        .expect("Something went wrong reading the file");
+    let contents = rd!("src/input/06a.txt");
 
     let re = regex::Regex::new(r"(?m)^\s*\n").unwrap();
     let groups = re.split(&*contents);

@@ -6,6 +6,7 @@
 // mod aoc6;
 // mod aoc7;
 mod aoc8;
+mod macros;
 
 fn main() {
     // aoc1::run();
@@ -14,6 +15,7 @@ fn main() {
     // aoc4::run();
     // aoc5::run();
     // aoc6::run();
+    // aoc7::run();
     aoc8::run();
 }
 
