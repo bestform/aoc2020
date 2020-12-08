@@ -47,7 +47,7 @@ pub(crate) fn run() {
             y += slope.down;
         }
 
-        println!("Found {} trees", trees);
+        //println!("Found {} trees", trees);
         counts.push(trees);
     }
 
